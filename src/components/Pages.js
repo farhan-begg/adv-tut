@@ -2,17 +2,20 @@ import React from 'react'
 import Home from './Home'
 
 import SideNavbar from './SideNavbar'
+import StepOne from './StepOne'
 
 const Pages = () => {
     return (
-       
+       <div>
+         <SideNavbar />
+
         <main id='home'>
-             <SideNavbar />
-        <section className='home'> <Home /></section>
-          
-      
+        <div class="body-text">
+        <section className='home'> 
+          <Home />
+        </section>
         <section className='about' id='about'>
-          <h1>about</h1>
+          <StepOne />
         </section>
         <section className='projects' id='projects'>
           <h1>projects</h1>
@@ -21,7 +24,9 @@ const Pages = () => {
           <h1>contact</h1>
         </section>
         <section className='rest'></section>
+        </div>
       </main>
+      </div>
     )
 }
 

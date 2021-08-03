@@ -4,23 +4,24 @@ ul {
   }
   a {
     text-decoration: none;
+    border-bottom: 1px solid rgb(0, 234, 255);
+    
   }
   
-
-  
   .sidebar-nav-center a {
-    font-size: 20;
+    font-size: 15px;
+    font-weight: light;
     color: var(--grey-1100);
     transition: var(--transition);
     text-transform: uppercase;
     display: table;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-
-   
-  
-    padding-top: 50px;
-    line-height: 20px;
+    padding-top: 40px;
+    line-height: 1px;
+    padding-bottom: 10px;
    
   }
   .sidebar-nav-center a:hover {
@@ -64,4 +65,7 @@ ul {
   
   }
   
-  
+  .sidebar div {
+    padding: 8px;
+
+    }
