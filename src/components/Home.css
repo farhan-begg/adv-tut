@@ -1,0 +1,32 @@
+.home_center_div{
+        border:1px solid rgba(178, 177, 177, 0.101);
+        max-width: 400px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+}
+
+ul {
+    display: table;
+margin: 0 auto;
+list-style-type:none;
+padding: 0;
+
+
+}
+
+#menu {
+    padding: 0;
+    list-style: none;
+  }
+#menu li {
+    height: 50px;
+    margin: 30px;
+    color: black;
+  }
+
+  .body-text {
+    margin-right: 150px;
+    font-size: 18px;
+    }
