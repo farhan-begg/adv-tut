@@ -14,8 +14,9 @@ const SideNavbar = () => {
     })
   }
   return (
+    
     <div class="sidebar">
-  
+      <h3>Contents</h3>
       <div className='sidebar-nav-center'>
         {/* <img src={logo} alt='smooth scroll' /> */}
         <div>

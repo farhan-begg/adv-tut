@@ -11,13 +11,14 @@ const Home = () => {
                 {/* <img src="https://www.freepnglogos.com/uploads/discord-logo-png/seven-kingdoms-9.png"/> */}
                 Introduction</div>
             <div className="intro-paragraph">
-                <p>If you haven't used Discord yet, chances are this is your first time using the internet. Welcome, friend! It is a magical place. All joking aside, Discord is a messaging platform with fantastic voice and video streaming capabilities originally built to service gaming communities. It offers a lot of extensibility via bots, custom moderation tools and more which we'll show you how to work with here.</p>
-                <p>In this tutorial we'll cover how to set up a fully customizable Discord bot that you can have running in your server in around 10 minutes. We'll be using Autocode, which will provide you with free hosting, automatically handle authentication to Discord and set up webhooks for you. This will allow you to focus on the fun part: building an awesome bot for your server!</p>
+                <p>Discord is a chat application that allows millions of users across the globe to message and voice chat online in communities called guilds or servers. Discord also provides an extensive API that developers can use to build powerful Discord bots. Bots can perform various actions such as sending messages to servers, DM-ing users, moderating servers, and playing audio in voice chats. This allows developers to craft powerful bots that include advanced, complex features like moderation tools or even games. For example, the utility bot Dyno serves millions of guilds and contains useful features such as spam protection, a music player, and other utility functions. Learning how to create Discord bots allows you to implement many possibilities, which thousands of people could interact with every day.
+
+In this tutorial, you will build a Discord bot from scratch, using Node.js and the Discord.js library, which allows users to directly interact with the Discord API. You’ll set up a profile for a Discord bot, get authentication tokens for the bot, and program the bot with the ability to process commands, with arguments, from users.</p>
             </div>
-            <div className="gif">
+       
             {/* <video  src="https://content.public.files.stdlib.com/shared/static/images/guides/discord/01-new-app-screen.png" alt="" loading="lazy"/> */}
             <video src="https://content.public.files.stdlib.com/shared/static/images/guides/discord/help-02.webm"  alt=""/>
-            </div>
+  
 
    
 

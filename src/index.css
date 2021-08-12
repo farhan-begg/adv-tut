@@ -24,27 +24,12 @@ html {
   scroll-behavior: smooth;
 
 }
-
-.home,
-.about,
-.projects,
-.contact,
-.rest {
+section
+ {
   min-height: 100vh;
 
 }
 
-.home {
-
-}
-.about {
-}
-.projects {
-  background: #ffd1ba;
-}
-.contact {
-  background: #ce7da5;
-}
 
 
 
@@ -57,7 +42,7 @@ html {
     margin-bottom: 20px;
     font-size: 30px;
     color: rgb(0, 234, 255);
-border-bottom: 1px solid rgba(128, 128, 128, 0.464) ;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.464) ;
 
 }
 
@@ -73,3 +58,21 @@ main {
     margin-left: 120px;
     font-size: 18px;
     }
+
+
+  img{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+h2{
+    padding-left: 1px;
+    color: grey;
+    font-weight: light;
+}
